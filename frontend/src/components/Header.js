@@ -10,7 +10,7 @@ function Header() {
                 <LinkContainer to='/'>
                     <Navbar.Brand href="#home">ProShop</Navbar.Brand>
                 </LinkContainer>
-                
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -22,6 +22,7 @@ function Header() {
                         <LinkContainer to='/login'>
                             <Nav.Link ><i className='fas fa-user'></i>Login</Nav.Link>
                         </LinkContainer>
+                        
                     </Nav>
                 </Navbar.Collapse>
             </Container>
