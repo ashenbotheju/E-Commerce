@@ -122,7 +122,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+MEDIA_URL = '/images/'
+
+#static files identification
+STATICFILES = [
+    BASE_DIR / 'static'
+]
+
+#user upload files
+MEDIA_ROOT = 'static/images'
 
 CORS_ALLOW_ALL_ORIGINS: True
 
