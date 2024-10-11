@@ -5,7 +5,7 @@ import Rating from "../components/Rating";
 import axios from "axios";
 
 function ProductScreen() {
-  const { id } = useParams(); // Use useParams hook to get the id from the route
+  const { id } = useParams(); // Use useParams hook to get the id from the route( up react V6 ) 
   const [product, setProduct] = useState([]);
 
   useEffect(() => {
